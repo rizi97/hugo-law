@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="contact-form-wrap section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="lead font-weight-400">Neil H. Kupferman, Esq., PC, is a boutique New York real estate law firm offering experienced, individualized legal solutions to clients ranging from first-time home buyers to seasoned real estate investors. We serve clients throughout Brooklyn and surrounding areas.</p>
+      </div>
+    </div>
+    <div class="row align-items-center bg-gray">
+      {{ if .Site.Params.map.enable }}
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="google-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.2973418475676!2d-73.984127!3d40.66741700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25afd418b8889%3A0xdabbc79f4b619b7!2sNeil%20H.%20Kupferman%2C%20Esq.%2C%20PC!5e0!3m2!1sen!2sde!4v1722428554479!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-lg-6 col-sm-12">
+        <div class="contact-content pl-lg-5 mt-5 mt-lg-0">
+          <h3 class="mb-3">{{ .Site.Params.address | markdownify }}</h3>
+          <h2 class="mb-3">{{ .Site.Params.phone }}</h2>
+          <h2 class="mb-3">{{ .Site.Params.email }}</h2>
+          <ul class="social-icons list-inline mt-5">
+            {{ range .Site.Params.social }}
+            <li class="list-inline-item">
+              <a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <div class="col-lg-8 text-center mt-4">
+        <h2 class="mb-5">Contact Us</h2>
+        <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/f82171448522b7ac2f960cb72e88b952?embedded=1"></div>
+        <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+        <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+        <!-- Get notified when the form is submitted, add your own code below: -->
+        <script>
+         const formkeepEmbed = document.querySelector('#formkeep-embed')
+          formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+          console.log('Submitting form...')
+          })
+          formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+          console.log('Submitted form...')
+          })
+        </script>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

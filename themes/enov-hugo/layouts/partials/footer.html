@@ -1,0 +1,110 @@
+<!-- footer Start -->
+<footer class="footer section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <div class="widget">
+          <a class="d-block mb-4" href="{{ .Site.BaseURL | relLangURL }}">
+            <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" class="img-fluid" style="filter: invert(1); width: 60%;">
+          </a>
+          <a href="mailto:{{ .Site.Params.email }}" class="text-white">{{ .Site.Params.email }}</a>
+          <p class="mt-4 mb-0">{{ .Site.Params.Address1 }}</p>
+          <p class="">{{ .Site.Params.Address2 }}</p>
+          <a href="tel:{{ .Site.Params.phone }}"><span class="text-white h4">{{ .Site.Params.phone }}</span></a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="widget text-white">
+          <h4 class="text-capitalize mb-4 text-white">{{ i18n "company"}}</h4>
+          <ul class="list-unstyled footer-menu lh-35">
+            {{ range .Site.Menus.main }}
+            {{ if not .HasChildren }}
+            <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+            {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-6">
+        <div class="widget">
+          <h4 class="text-capitalize mb-4 text-white">{{ i18n "quick_links"}}</h4>
+          <ul class="list-unstyled footer-menu lh-35">
+            {{ range .Site.Menus.footer }}
+            <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="widget">
+          <h4 class="text-capitalize mb-4 text-white">{{ i18n "follow_us" }}</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.2973418475676!2d-73.984127!3d40.66741700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25afd418b8889%3A0xdabbc79f4b619b7!2sNeil%20H.%20Kupferman%2C%20Esq.%2C%20PC!5e0!3m2!1sen!2sde!4v1722428554479!5m2!1sen!2sde" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <ul class="list-unstyled footer-socials d-flex" style="gap: 20px;">
+            {{ range .Site.Params.social }}
+            <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2 text-muted"></i>{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 widget mb-0">
+        <p><b>Disclaimer:</b> The information you obtain at this site is not, nor is it intended to be, legal advice. You should consult an attorney for advice regarding your individual situation. Contacting us does not create an attorney-client relationship. Please do not send any confidential information to us until such time as an attorney-client relationship has been established. Please be advised that the results achieved in any given case depend upon the exact facts and circumstances of that case. Neil H. Kupferman, Esq., P.C. cannot guarantee a specific result in any legal matter. Any testimonial or case result listed on this site is based on an actual legal case and represents the results achieved in that particular case, and does not constitute a guarantee, warranty or prediction of the outcome of any other legal matter.</p>
+        <p>Attorney Advertising. Prior results do not guarantee a similar outcome | <a href="/pages/privacy-policy/">Privacy Policy</a> | <a href="/pages/terms-of-service/">Terms of Service</a>.</p>
+      </div>
+
+    </div>
+
+    <div class="footer-btm pt-4 pb-3">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <div class="copyright">
+            <p>{{ .Site.Params.copyright | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- search index -->
+{{ if .Site.Params.search }}
+<script>
+  var indexURL = {{ "index.json" | absURL }}
+</script>
+{{ end }}
+
+{{ "<!-- Google Map API -->" | safeHTML }}
+{{ if .Site.Params.map.enable }}
+<script src="{{ .Site.Params.map.gmap_api | safeURL }}"></script>
+{{ end }}
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
+{{ "<!-- google analitycs -->" | safeHTML }}
+{{ with .Site.Params.google_analitycs_id }}
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', '{{ . }}', 'auto');
+  ga('send', 'pageview');
+</script>
+{{ end }}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Real Estate Law on Enov Hugo | Html5 Business template</title>
+    <link>//localhost:1313/categories/real-estate-law/</link>
+    <description>Recent content in Real Estate Law on Enov Hugo | Html5 Business template</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Sep 2019 10:30:13 +0600</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/real-estate-law/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pending Aticle 3?</title>
+      <link>//localhost:1313/blog/post.3/</link>
+      <pubDate>Mon, 16 Sep 2019 10:30:13 +0600</pubDate>
+      <guid>//localhost:1313/blog/post.3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur?</description>
+    </item>
+    <item>
+      <title>Pending Aticle 4?</title>
+      <link>//localhost:1313/blog/post.4/</link>
+      <pubDate>Mon, 16 Sep 2019 10:30:13 +0600</pubDate>
+      <guid>//localhost:1313/blog/post.4/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur?</description>
+    </item>
+    <item>
+      <title>Pending Aticle 5?</title>
+      <link>//localhost:1313/blog/post.5/</link>
+      <pubDate>Mon, 16 Sep 2019 10:30:13 +0600</pubDate>
+      <guid>//localhost:1313/blog/post.5/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur?</description>
+    </item>
+    <item>
+      <title>Pending Aticle 6?</title>
+      <link>//localhost:1313/blog/post.6/</link>
+      <pubDate>Mon, 16 Sep 2019 10:30:13 +0600</pubDate>
+      <guid>//localhost:1313/blog/post.6/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur?</description>
+    </item>
+  </channel>
+</rss>

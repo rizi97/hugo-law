@@ -1,0 +1,77 @@
+{{ define "main" }}
+  {{ partial "page-title.html" . }}
+
+
+  <style>
+    .service-detail h1,
+    .service-detail h2,
+    .service-detail h3,
+    .service-detail h4,
+    .service-detail h5,
+    .service-detail h6,
+    .service-detail p {
+      width: 100%;
+    }
+    .service-detail h2 {
+      font-size: 32px;
+      line-height: 38px;
+      max-width: 80%;
+    }
+    .service-detail img {
+      width: 100%;
+    }
+    .service-detail #formkeep-embed {
+        background: #e4e4e4;
+        box-shadow: 15px 15px 0 #a9a9a9;
+        padding-top: 20px;
+    }
+    .service-detail .sidebar h3 {
+      background: #e4e4e4;
+      text-align: center;
+      margin-bottom: 0;
+      padding-top: 15px;
+    }
+  </style>
+
+  <section class="section service-detail">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          {{ .Content }}
+        </div>
+        <div class="col-sm-4 sidebar">
+          <h3>Contact Us</h3>
+          <div
+          id="formkeep-embed"
+          data-formkeep-url="https://formkeep.com/p/f82171448522b7ac2f960cb72e88b952?embedded=1"></div>
+
+          <script
+            type="text/javascript"
+            src="https://pym.nprapps.org/pym.v1.min.js"></script>
+          <script
+            type="text/javascript"
+            src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+
+          <!-- Get notified when the form is submitted, add your own code below: -->
+          <script>
+            const formkeepEmbed = document.querySelector("#formkeep-embed");
+
+            formkeepEmbed.addEventListener(
+              "formkeep-embed:submitting",
+              (_event) => {
+                console.log("Submitting form...");
+              }
+            );
+
+            formkeepEmbed.addEventListener(
+              "formkeep-embed:submitted",
+              (_event) => {
+                console.log("Submitted form...");
+              }
+            );
+          </script>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

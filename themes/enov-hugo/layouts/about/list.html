@@ -1,0 +1,65 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ partial "page-title.html" . }}
+
+<!-- about -->
+{{ if $data.about.about.enable }}
+{{ with $data.about.about }}
+<section class="section about-2 position-relative pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>{{ .title | markdownify }}</h1>
+        <p class="mb-5 mt-4 font-weight-normal">{{ .content | markdownify }}
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1>{{ .about_item_title | markdownify }}</h1>
+        <p class="mt-4 font-weight-normal">{{ .about_item_content_primary | markdownify }}
+        </p>
+      </div>
+      {{ range $index, $element:= .about_item_primary }}
+        <div class="col-sm-12">
+          <li>{{ . }}</li>
+        </div>
+      {{ end }}
+      <div class="col-md-12">
+        <p class="mt-4 font-weight-normal">{{ .about_item_content_secondary | markdownify }}</p>
+      </div>
+      {{ range $index, $element:= .about_item_secondary }}
+        <div class="col-sm-12">
+          <li>{{ . }}</li>
+        </div>
+      {{ end }}
+      <div class="col-md-12">
+        <p class="mt-4 font-weight-normal">{{ .about_bottom_content | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /about -->
+
+
+<!-- team -->
+{{ if $data.about.team.enable }}
+{{ partial "team.html" . }}
+{{ end }}
+
+
+<section class="section about-2 position-relative pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

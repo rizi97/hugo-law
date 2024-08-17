@@ -1,0 +1,103 @@
+########################### services ############################
+services:
+  # service item loop
+  - title : "Commercial Real Estate Financing Attorneys"
+    link : commercial-real-estate-financing-attorneys
+    icon : "ti-money"
+    content : "In the bustling world of New York City real estate, commercial financing plays a crucial role..."
+  
+  # service item loop
+  - title : "Leasing Lawyers"
+    link : leasing-lawyers-brooklyn
+    icon : "ti-user"
+    content : "Are you a landlord or tenant facing complex leasing issues in Brooklyn? Don't risk your property..."
+
+  # service item loop
+  - title : "Real Estate Acquisitions & Sales"
+    link : real-estate-acquisitions-sales
+    icon : "ti-check-box" # themify icon pack: https://themify.me/themify-icons
+    content : "ALorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus."
+    
+  # service item loop
+  - title : "Property Purchase & Sale Agreements"
+    link : property-purchase-sale-agreements
+    icon : "ti-receipt" # themify icon pack: https://themify.me/themify-icons
+    content : "ALorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus."
+    
+  # service item loop
+  - title : "Commercial & Residential Leasing"
+    link : commercial-residential-leasing
+    icon : "ti-bar-chart" # themify icon pack: https://themify.me/themify-icons
+    content : "ALorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus."
+    
+  # service item loop
+  - title : "Real Estate Financing & Mortgages"
+    link : real-estate-financing-mortgages
+    icon : "ti-vector" # themify icon pack: https://themify.me/themify-icons
+    content : "ALorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus."
+    
+  # service item loop
+  - title : "Net-Leased Properties"
+    link : net-leased-properties
+    icon : "ti-files" # themify icon pack: https://themify.me/themify-icons
+    content : "ALorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus."
+    
+  # service item loop
+  - title : "Refinancing Commercial Properties"
+    link : refinancing-commercial-properties
+    icon : "ti-pencil-alt" # themify icon pack: https://themify.me/themify-icons
+    content : "ALorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus."
+    
+  # service item loop
+  - title : "LLC and Corporation Formation"
+    link : llc-and-corporation-formation
+    icon : "ti-layout-grid3" # themify icon pack: https://themify.me/themify-icons
+    content : "ALorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus."
+    
+  # service item loop
+  - title : "Business Agreements"
+    link : business-agreements
+    icon : "ti-write" # themify icon pack: https://themify.me/themify-icons
+    content : "ALorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus."
+    
+  # service item loop
+  - title : "License/Access Agreements"
+    link : license-Access-agreements
+    icon : "ti-lock" # themify icon pack: https://themify.me/themify-icons
+    content : "ALorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus."
+
+      # service item loop
+  - title : "Residential Lending"
+    link : residential-lending
+    icon : "ti-crown" # themify icon pack: https://themify.me/themify-icons
+    content : "ALorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus."
+
+      # service item loop
+  - title : "Commercial Hard Money Loans"
+    link : commercial-hard-money-loans
+    icon : "ti-credit-card" # themify icon pack: https://themify.me/themify-icons
+    content : "ALorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus."
+
+    
+
+
+######################### pricing #####################################
+pricing:
+  enable : false
+  # pricing item comes from "pricing.yml" file
+
+######################## Service step #################################
+steps:
+  enable : false
+  step:
+    # step loop
+    - title : "Discuss with us"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart" 
+
+    # step loop
+    - title : "Choose your perfect plan"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart" 
+      
+    # step loop
+    - title : "Start your project"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart"

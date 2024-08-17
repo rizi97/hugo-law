@@ -1,0 +1,177 @@
+################################## Banner #################################
+banner:
+  enable : true
+  subtitle : "Neil H. Kupferman, Esq. & Oren Goldhaber"
+  title : "Brooklyn's Premier Real Estate Law Firm."
+  content: "Serving clients across the Tristate area, including all five boroughs of New York City (Manhattan, Brooklyn, Queens, The Bronx, and Staten Island), as well as Long Island, Westchester County, The Hamptons in New York, New Jersey, and Connecticut."
+
+  # solid button
+  button_solid:
+    enable : false
+    label : "Get started"
+    link : "pricing/"
+
+  # border button
+  button_border:
+    enable : false
+    label : "Discover Enov"
+    link : "service/"
+
+######################## Banner call to action ############################
+banner_cta:
+  enable : true
+  title : "Experienced Legal Counsel for All Your Real Estate Needs"
+  content : "At Neil H. Kupferman, Esq., PC, we understand that real estate transactions can be complex and overwhelming. Our dedicated team of attorneys is here to guide you through every step of the process, ensuring your interests are protected and your goals are achieved."
+  button:
+    enable : true
+    label : "Contact Us"
+    link : "contact/"
+
+########################## feature ########################################
+feature:
+  enable : True
+  title : "Why Choose Us?"
+  image: "/images/blog/3.jpg"
+  feature_item:
+    # feature item loop
+    - title : "Over 25 years of experience in New York real estate law"
+      icon : "ti-wand" # icon pack : https://themify.me/themify-icons
+      content : " "
+      
+    # feature item loop
+    - title : "Personalized attention to every client"
+      icon : "ti-medall" # icon pack : https://themify.me/themify-icons
+      content : ""
+
+    # feature item loop
+    - title : "Comprehensive knowledge of Brooklyn's real estate market"
+      icon : "ti-medall" # icon pack : https://themify.me/themify-icons
+      content : ""
+
+    # feature item loop
+    - title : "Proven track record of successful transactions"
+      icon : "ti-medall" # icon pack : https://themify.me/themify-icons
+      content : ""
+
+    # feature item loop
+    - title : "Efficient and cost-effective legal solutions"
+      icon : "ti-medall" # icon pack : https://themify.me/themify-icons
+      content : ""
+
+######################## About #######################################
+about:
+  enable : true
+  image : "images/about/home-8.jpg"
+  title : "Forget about <br> design limits! Build and customize your portfolio"
+  content : "We provide consulting services in the area of IFRS and management reporting, helping companies
+            to reach their highest level. We optimize business processes, making them easier."
+  button:
+    enable : true
+    label : "Get started"
+    link : "pricing/"
+
+##################### Funfacts ######################################
+funfacts:
+  enable : false
+  funfact_item:
+    # fanfacts item loop
+    - title : "Project Done"
+      icon : "ti-check" # themify icon pack: https://themify.me/themify-icons
+      count : "1730"
+      unit : "+"
+      
+    # fanfacts item loop
+    - title : "User Worldwide"
+      icon : "ti-flag" # themify icon pack: https://themify.me/themify-icons
+      count : "125"
+      unit : "M"
+      
+    # fanfacts item loop
+    - title : "Availble Country"
+      icon : "ti-layers" # themify icon pack: https://themify.me/themify-icons
+      count : "40"
+      unit : ""
+      
+    # fanfacts item loop
+    - title : "Award Winner"
+      icon : "ti-medall" # themify icon pack: https://themify.me/themify-icons
+      count : "10"
+      unit : "+"
+
+######################### Service #####################################
+service:
+  enable : true
+  title : "Our Services:"
+  content : "We provide a wide range of legal services"
+  # service item comes from "data/**/service.yml" file
+
+######################### pricing #####################################
+pricing:
+  enable : false
+  # pricing item comes from "data/**/pricing.yml" file
+
+############################# Team ##################################
+team:
+  enable: true
+  title : "Our Team"
+  content : ""
+  team_member:
+    ################### team member loop
+    - name : "Neil H. Kupferman, Esq."
+      image : "images/team/team-1.jpg"
+      designation : "Senior Partner"
+      link: "/teams/neil-h-kupferman-esq"
+      social:
+        # social site loop
+        #- icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
+        #  link : "#"
+          
+        # social site loop
+        #- icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
+        #  link : "#"
+          
+        # social site loop
+        - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
+          link : "#"
+          
+        # social site loop
+        #- icon : "ti-github" # icon pack : https://themify.me/themify-icons
+        #  link : "#"
+          
+    ################### team member loop
+    - name : "Oren Goldhaber, Esq."
+      image : "images/team/team-2.jpg"
+      designation : "Partner"
+      link: "/teams/oren-goldhaber-esq"
+      social:
+        # social site loop
+        #- icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
+        #  link : "#"
+          
+        # social site loop
+        #- icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
+        #  link : "#"
+          
+        # social site loop
+        - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
+          link : "#"
+          
+        # social site loop
+        #- icon : "ti-github" # icon pack : https://themify.me/themify-icons
+        #  link : "#"
+
+
+################################### promo video ##########################
+promo_video:
+  enable : false
+  title : "See How we work!"
+  video_thumbnail : "images/bg/contact-bg-min-1.jpg"
+  video_link : "https://www.youtube.com/watch?v=jrkvirglgaQ"
+  content: "Our mission is to produce the highest quality work for everyclient, on every project"
+
+############################## blog ####################################
+blog:
+  enable: true
+  title : "Latest News & Articles"
+  content : "Don’t just take our words for it. Our clients are our biggest supporters. Would you like to know what they think about us?"
+  # blog post comes from "content/**/blog" folder.
