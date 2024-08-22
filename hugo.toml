@@ -111,26 +111,31 @@ hasChildren = true
   parent = "Services"
   name = "Leasing Lawyers"
   URL = "service/leasing-lawyers-brooklyn/"
+  weight = 1
 
   [[menu.main]]
   parent = "Services"
   name = "Residential Lending"
   URL = "service/residential-lending/"
+  weight = 2
 
   [[menu.main]]
   parent = "Services"
   name = "Financing & Mortgages"
   URL = "service/real-estate-financing-mortgages/"
+  weight = 3
 
   [[menu.main]]
   parent = "Services"
   name = "Refinancing Commercial Properties"
   URL = "service/refinancing-commercial-properties/"
+  weight = 4
 
   [[menu.main]]
   parent = "Services"
   name = "LLC, Corporation, Partnership Agreements"
   URL = "service/refinancing-commercial-properties/"
+  weight = 5
 
 
 [[menu.main]]

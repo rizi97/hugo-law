@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Enov Hugo | Html5 Business template</title>
-    <link>//localhost:1313/pages/</link>
+    <link>//localhost:52422/pages/</link>
     <description>Recent content in Pages on Enov Hugo | Html5 Business template</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:52422/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Privacy Policy</title>
-      <link>//localhost:1313/pages/privacy-policy/</link>
+      <link>//localhost:52422/pages/privacy-policy/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/pages/privacy-policy/</guid>
+      <guid>//localhost:52422/pages/privacy-policy/</guid>
       <description>Thank you for visiting the website (https://nhklaw.com/) of Neil H. Kupferman, Esq.</description>
     </item>
     <item>
       <title>Terms of Service</title>
-      <link>//localhost:1313/pages/terms-of-service/</link>
+      <link>//localhost:52422/pages/terms-of-service/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/pages/terms-of-service/</guid>
+      <guid>//localhost:52422/pages/terms-of-service/</guid>
       <description>Interpretation and Definitions Interpretation The words of which the initial letter is capitalized have meanings defined under the following conditions.</description>
     </item>
   </channel>

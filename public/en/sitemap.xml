@@ -2,138 +2,138 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>//localhost:52422/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="//localhost:1313/fr/"
+                href="//localhost:52422/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/"
+                href="//localhost:52422/"
                 />
   </url><url>
-    <loc>//localhost:1313/pages/</loc>
+    <loc>//localhost:52422/pages/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pages/privacy-policy/</loc>
+    <loc>//localhost:52422/pages/privacy-policy/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pages/terms-of-service/</loc>
+    <loc>//localhost:52422/pages/terms-of-service/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>//localhost:52422/about/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/service/business-agreements/</loc>
+    <loc>//localhost:52422/service/business-agreements/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>//localhost:52422/categories/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="//localhost:1313/fr/categories/"
+                href="//localhost:52422/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/categories/"
+                href="//localhost:52422/categories/"
                 />
   </url><url>
-    <loc>//localhost:1313/service/commercial-residential-leasing/</loc>
+    <loc>//localhost:52422/service/commercial-residential-leasing/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/service/commercial-hard-money-loans/</loc>
+    <loc>//localhost:52422/service/commercial-hard-money-loans/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/service/commercial-real-estate-financing-attorneys/</loc>
+    <loc>//localhost:52422/service/commercial-real-estate-financing-attorneys/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/contact/</loc>
+    <loc>//localhost:52422/contact/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>//localhost:52422/blog/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/law/</loc>
+    <loc>//localhost:52422/categories/law/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/service/leasing-lawyers-brooklyn/</loc>
+    <loc>//localhost:52422/service/leasing-lawyers-brooklyn/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/service/license-access-agreements/</loc>
+    <loc>//localhost:52422/service/license-access-agreements/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/service/llc-and-corporation-formation/</loc>
+    <loc>//localhost:52422/service/llc-and-corporation-formation/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/teams/neil-h-kupferman-esq/</loc>
+    <loc>//localhost:52422/teams/neil-h-kupferman-esq/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/service/net-leased-properties/</loc>
+    <loc>//localhost:52422/service/net-leased-properties/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/teams/oren-goldhaber-esq/</loc>
+    <loc>//localhost:52422/teams/oren-goldhaber-esq/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/service/</loc>
+    <loc>//localhost:52422/service/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/post.1/</loc>
+    <loc>//localhost:52422/blog/post.1/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/post.2/</loc>
+    <loc>//localhost:52422/blog/post.2/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/post.3/</loc>
+    <loc>//localhost:52422/blog/post.3/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/post.4/</loc>
+    <loc>//localhost:52422/blog/post.4/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/post.5/</loc>
+    <loc>//localhost:52422/blog/post.5/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/post.6/</loc>
+    <loc>//localhost:52422/blog/post.6/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/service/real-estate-acquisitions-sales/</loc>
+    <loc>//localhost:52422/service/real-estate-acquisitions-sales/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/service/real-estate-financing-mortgages/</loc>
+    <loc>//localhost:52422/service/real-estate-financing-mortgages/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/real-estate-law/</loc>
+    <loc>//localhost:52422/categories/real-estate-law/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/service/refinancing-commercial-properties/</loc>
+    <loc>//localhost:52422/service/refinancing-commercial-properties/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/service/residential-lending/</loc>
+    <loc>//localhost:52422/service/residential-lending/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/teams/</loc>
+    <loc>//localhost:52422/teams/</loc>
     <lastmod>2019-09-16T10:30:13+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/author/</loc>
+    <loc>//localhost:52422/author/</loc>
   </url><url>
-    <loc>//localhost:1313/author/john-doe/</loc>
+    <loc>//localhost:52422/author/john-doe/</loc>
   </url><url>
-    <loc>//localhost:1313/author/mark-dinn/</loc>
+    <loc>//localhost:52422/author/mark-dinn/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>//localhost:52422/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="//localhost:1313/fr/tags/"
+                href="//localhost:52422/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/tags/"
+                href="//localhost:52422/tags/"
                 />
   </url>
 </urlset>
